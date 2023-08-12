@@ -1,0 +1,12 @@
+[submodule "vendor/libspng"]
+	path = vendor/libspng
+	url = https://github.com/randy408/libspng
+[submodule "vendor/glfw"]
+	path = vendor/glfw
+	url = https://github.com/glfw/glfw
+[submodule "vendor/FastNoise2"]
+	path = vendor/FastNoise2
+	url = https://github.com/Auburn/FastNoise2
+[submodule "vendor/tracy"]
+	path = vendor/tracy
+	url = https://github.com/wolfpld/tracy
