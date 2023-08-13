@@ -133,9 +133,9 @@ const mat4 ROTATIONS[6] = mat4[](
 );
 
 const vec3 NORMALS_WORLD[6] = vec3[](
-    vec3(0.0, 0.0, 1.0),    // front
+    vec3(0.0, 0.0, -1.0),    // front
     vec3(-1.0, 0.0, 0.0),   // left
-    vec3(0.0, 0.0, -1.0),   // back
+    vec3(0.0, 0.0, 1.0),   // back
     vec3(1.0, 0.0, 0.0),    // right
     vec3(0.0, -1.0, 0.0),   // bottom
     vec3(0.0, 1.0, 0.0)     // top
