@@ -136,7 +136,7 @@ static void glmain(GLFWwindow *window, App &app) {
 
         if (input_result == HandleInputResult::QUIT) {
             break;
-        } else {
+        } else if (input_result == HandleInputResult::MOVED) {
             manager.shared_state().modify([chunk_x, chunk_y, chunk_z](mgr::SharedStateView &state) {
                 state.chunk_x = chunk_x;
                 state.chunk_y = chunk_y;
